@@ -64,7 +64,7 @@ const Read = ({ showState }) => {
       >
         <Mic
           className={"w-full h-full"}
-          style={{ stroke: recode === 1 ? "#555555" : "#000000" }}
+          style={{ stroke: recode === 1 ? "#ff0000" : "#000000" }}
         />
       </button>
     </div>
@@ -78,7 +78,7 @@ const App2 = () => {
   const viewList = [
     <View showState={showState} placeholder="올해는 몇년도 인가요?" />,
     <View showState={showState} placeholder="지금은 무슨 계절입니까?" />,
-    <Voice showState={showState} />,
+    //<Voice showState={showState} />,
     <Read showState={showState} />,
   ];
 
